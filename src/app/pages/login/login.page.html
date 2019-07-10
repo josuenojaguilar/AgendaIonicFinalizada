@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-input required type="text" placeholder="Ingresa tu correo electrónico" [(ngModel)]="correo"></ion-input>
+  </ion-item>
+<br>
+<ion-button expand="full" (click)="login()">Iniciar Sesion</ion-button>
+
+
+</ion-content>
